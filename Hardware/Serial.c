@@ -135,7 +135,7 @@ void USART1_IRQHandler(void)//状态机思想
 		{
 			//Serial_RxFlag这个值需要在状态0里置0，否则只要一次为1，永远为1。
 			//Serial_RxFlag = 0;
-			if (RxData == '@')//如果发送太快，则跳过该数据包，所以加上Serial_RxFlag==0
+			if (RxData == '@'&& Serial_RxFlag == 0)//如果发送太快，则跳过该数据包，所以加上Serial_RxFlag==0
 													//即上一包接收完毕才能接收下一包，避免数据丢失，再或者就定义缓存
 			{
 				RxState = 1;
