@@ -1,8 +1,8 @@
 # ninja log v5
-0	37	0	CMakeFiles/database	1c749ac214fc6e94
+1	57	0	CMakeFiles/database	1c749ac214fc6e94
 1291	1888	7126798404562518	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-4_Serial_Receive_Text_Package/Library/stm32f10x_pwr.o	38190bd88d8b3514
 769	1154	7126798397183148	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-4_Serial_Receive_Text_Package/Library/stm32f10x_exti.o	545cb65e00dceffb
-0	37	0	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-4 Serial Receive Text Package/tmp/Project/Target_1/CMakeFiles/database	1c749ac214fc6e94
+1	57	0	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-4 Serial Receive Text Package/tmp/Project/Target_1/CMakeFiles/database	1c749ac214fc6e94
 26	336	7126798389241514	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-4_Serial_Receive_Text_Package/Hardware/ADC.o	8cd626f0875a7423
 19	475	7126798390541163	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-4_Serial_Receive_Text_Package/Hardware/Key.o	93ccb37ea5bbb45c
 9	583	7126798390066689	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-4_Serial_Receive_Text_Package/Hardware/LED.o	60903713dbe13617
@@ -10,7 +10,7 @@
 59	723	7126798392430186	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-4_Serial_Receive_Text_Package/Library/stm32f10x_adc.o	f68f539c741893bb
 1629	2381	7126798409597449	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-4_Serial_Receive_Text_Package/Library/stm32f10x_spi.o	dee0a3d7b8d0cbb5
 3	485	7126798389996685	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-4_Serial_Receive_Text_Package/Hardware/OLED.o	a344615711f561a5
-2	160	7126893967582095	CMakeFiles/Project.dir/1b1ce569632f170942f38e1cbfe1967d/Github_insiders/Examples/9-4_Serial_Receive_Text_Package/Hardware/Serial.o	49e1c301b77f454c
+4	169	7127447654875159	CMakeFiles/Project.dir/1b1ce569632f170942f38e1cbfe1967d/Github_insiders/Examples/9-4_Serial_Receive_Text_Package/Hardware/Serial.o	49e1c301b77f454c
 68	768	7126798393221667	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-4_Serial_Receive_Text_Package/Library/stm32f10x_bkp.o	e8bc06a85dbccac
 486	937	7126798394564934	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-4_Serial_Receive_Text_Package/Library/stm32f10x_cec.o	c90171f473c4e451
 733	1092	7126798396641441	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-4_Serial_Receive_Text_Package/Library/stm32f10x_dbgmcu.o	78ba6820c87bd75c
@@ -32,11 +32,11 @@
 1924	2448	7126798409606965	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-4_Serial_Receive_Text_Package/Library/stm32f10x_wwdg.o	cad530360b55b0f3
 1691	2582	7126798410355455	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-4_Serial_Receive_Text_Package/Library/stm32f10x_usart.o	515dee688c9e7e7
 1983	2585	7126798410679024	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-4_Serial_Receive_Text_Package/System/DMA.o	1db1e8150a867922
-8	145	7126893967459394	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-4_Serial_Receive_Text_Package/User/main.o	d46417d68cbb32f7
+13	251	7127447096905761	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-4_Serial_Receive_Text_Package/User/main.o	d46417d68cbb32f7
 1601	2665	7126798412560563	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-4_Serial_Receive_Text_Package/Library/stm32f10x_tim.o	62aecc0193b1d3cb
 2381	2732	7126798413241513	CMakeFiles/Project.dir/1b1ce569632f170942f38e1cbfe1967d/Github_insiders/Examples/9-4_Serial_Receive_Text_Package/User/stm32f10x_it.o	c553ab4addd2ec00
 2328	2767	7126798413522848	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-4_Serial_Receive_Text_Package/System/Delay.o	463942b826e7aae2
-160	273	7126893968722934	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-4 Serial Receive Text Package/out/Project/Target_1/Project.axf	66b19dbb3349edaf
-8	144	7126894435919555	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-4_Serial_Receive_Text_Package/User/main.o	d46417d68cbb32f7
-3	155	7126894435999590	CMakeFiles/Project.dir/1b1ce569632f170942f38e1cbfe1967d/Github_insiders/Examples/9-4_Serial_Receive_Text_Package/Hardware/Serial.o	49e1c301b77f454c
-155	265	7126894437109324	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-4 Serial Receive Text Package/out/Project/Target_1/Project.axf	66b19dbb3349edaf
+170	281	7127447656020198	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-4 Serial Receive Text Package/out/Project/Target_1/Project.axf	66b19dbb3349edaf
+14	188	7127466104656047	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-4_Serial_Receive_Text_Package/User/main.o	d46417d68cbb32f7
+5	204	7127466104823543	CMakeFiles/Project.dir/1b1ce569632f170942f38e1cbfe1967d/Github_insiders/Examples/9-4_Serial_Receive_Text_Package/Hardware/Serial.o	49e1c301b77f454c
+205	333	7127466106077614	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-4 Serial Receive Text Package/out/Project/Target_1/Project.axf	66b19dbb3349edaf

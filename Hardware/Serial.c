@@ -133,7 +133,9 @@ void USART1_IRQHandler(void)//状态机思想
 		//if+else if比起if+if有优先级功能，只会执行一个，不会同时满足
 		if (RxState == 0)
 		{
-			if (RxData == '@' && Serial_RxFlag == 0)//如果发送太快，则跳过该数据包，所以加上Serial_RxFlag==0
+			//Serial_RxFlag这个值需要在状态0里置0，否则只要一次为1，永远为1。
+			//Serial_RxFlag = 0;
+			if (RxData == '@')//如果发送太快，则跳过该数据包，所以加上Serial_RxFlag==0
 													//即上一包接收完毕才能接收下一包，避免数据丢失，再或者就定义缓存
 			{
 				RxState = 1;
@@ -165,3 +167,14 @@ void USART1_IRQHandler(void)//状态机思想
 	}
 }
 
+uint8_t Serial_GetRxFlag(void)
+{
+	if(Serial_RxFlag == 1)
+	{
+		Serial_RxFlag = 0;
+		return 1;
+	}
+	return 0;
+}
+//经过测试，这里有个bug的，输入一段字符之后不换行，点发送，然后再随便添加几个字符，这次加换行，点发送，显示会错误的
+//因为他换行没删啊，他只是把第一行字换了，你如果鼠标点第二行还是能发现一个空白行

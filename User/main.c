@@ -14,11 +14,10 @@ int main(void)
 	OLED_ShowString(3, 1, "RxPacket");
 	while (1)
 	{
-		if (Serial_RxFlag == 1)
+		if (Serial_GetRxFlag()== 1)
 		{
 			OLED_ShowString(4, 1, "                ");
 			OLED_ShowString(4, 1, Serial_RxPackage);
-			
 			if (strcmp(Serial_RxPackage, "LED_ON") == 0)
 			{
 				LED1_ON();
@@ -39,7 +38,7 @@ int main(void)
 				OLED_ShowString(2, 1, "                ");
 				OLED_ShowString(2, 1, "ERROR");
 			}
-			Serial_RxFlag = 0;
+			//Serial_RxFlag = 0;
 		}
 	}
 }

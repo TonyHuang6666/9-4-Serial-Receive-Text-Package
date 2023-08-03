@@ -13,5 +13,5 @@
   Library\stm32f10x_tim.h Library\stm32f10x_usart.h \
   Library\stm32f10x_wwdg.h Library\misc.h System\Delay.h Hardware\OLED.h \
   Hardware\Serial.h \
-  D:\Softwares\Keil\ARM\ARMCLANG\Bin\..\include\stdio.h Hardware\Key.h \
-  Hardware\LED.h D:\Softwares\Keil\ARM\ARMCLANG\Bin\..\include\string.h
+  D:\Softwares\Keil\ARM\ARMCLANG\Bin\..\include\stdio.h Hardware\LED.h \
+  D:\Softwares\Keil\ARM\ARMCLANG\Bin\..\include\string.h

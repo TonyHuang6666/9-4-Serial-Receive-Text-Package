@@ -908,7 +908,7 @@ I (Library\stm32f10x_usart.h)(0x64C92481)
 I (Library\stm32f10x_wwdg.h)(0x61605445)
 I (Library\misc.h)(0x61605445)
 F (.\Hardware\ADC.h)(0x64C7A7F9)()
-F (.\Hardware\Serial.c)(0x64CA62FF)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Start -I ./Library -I ./User -I ./System -I ./Hardware-I"D:/Data_of_Softwares/keil packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ./objects/serial.o -MD)
+F (.\Hardware\Serial.c)(0x64CB3F9A)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Start -I ./Library -I ./User -I ./System -I ./Hardware-I"D:/Data_of_Softwares/keil packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ./objects/serial.o -MD)
 I (Start\stm32f10x.h)(0x61605444)
 I (Start\core_cm3.h)(0x61605444)
 I (D:\Softwares\Keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
@@ -939,8 +939,8 @@ I (Library\stm32f10x_wwdg.h)(0x61605445)
 I (Library\misc.h)(0x61605445)
 I (D:\Softwares\Keil\ARM\ARMCLANG\include\stdarg.h)(0x63884908)
 I (D:\Softwares\Keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
-F (.\Hardware\Serial.h)(0x64CA603D)()
-F (.\User\main.c)(0x64CA636C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Start -I ./Library -I ./User -I ./System -I ./Hardware-I"D:/Data_of_Softwares/keil packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ./objects/main.o -MD)
+F (.\Hardware\Serial.h)(0x64CB3DD6)()
+F (.\User\main.c)(0x64CB3D54)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./Start -I ./Library -I ./User -I ./System -I ./Hardware-I"D:/Data_of_Softwares/keil packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ./objects/main.o -MD)
 I (Start\stm32f10x.h)(0x61605444)
 I (Start\core_cm3.h)(0x61605444)
 I (D:\Softwares\Keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
@@ -971,9 +971,8 @@ I (Library\stm32f10x_wwdg.h)(0x61605445)
 I (Library\misc.h)(0x61605445)
 I (System\Delay.h)(0x6130920D)
 I (Hardware\OLED.h)(0x616ED05A)
-I (Hardware\Serial.h)(0x64CA603D)
+I (Hardware\Serial.h)(0x64CB3DD6)
 I (D:\Softwares\Keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
-I (Hardware\Key.h)(0x615AC3EF)
 I (Hardware\LED.h)(0x615AC609)
 I (D:\Softwares\Keil\ARM\ARMCLANG\include\string.h)(0x63884908)
 F (.\User\stm32f10x_conf.h)(0x61605441)()

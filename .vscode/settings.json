@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "led.h": "c"
-    }
+    },
+    "cmake.sourceDirectory": "D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-4 Serial Receive Text Package/tmp/Project/Target_1"
 }
